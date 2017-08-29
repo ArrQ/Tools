@@ -17,7 +17,11 @@
  @param font 字体
  @return 长度
  */
-+ (CGFloat )widthForLabel:(NSString *)text fontSize:(CGFloat)font;
++ (CGFloat )widthForLabelWidth:(NSString *)text fontSize:(CGFloat)font;
+
+
+
++ (CGFloat)widthForLabelHeight:(NSString *)text fontSize:(CGFloat)font;
 
 /**
  16进制转换 颜色

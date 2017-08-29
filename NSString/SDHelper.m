@@ -10,13 +10,30 @@
 
 @implementation SDHelper
 /**
- *  计算文字长度
+ *  计算文字宽度
  */
-+ (CGFloat )widthForLabel:(NSString *)text fontSize:(CGFloat)font
++ (CGFloat )widthForLabelWidth:(NSString *)text fontSize:(CGFloat)font
 {
     CGSize size = [text sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:font], NSFontAttributeName, nil]];
+
     return size.width;
 }
+
+
+// 计算文字高度
+
++ (CGFloat)widthForLabelHeight:(NSString *)text fontSize:(CGFloat)font{
+
+
+ CGRect rect = [text boundingRectWithSize:CGSizeMake(width, 1000) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:font]} context:nil];
+    
+    
+    return rect.size.height;
+
+
+
+}
+
 
 /**
  转换颜色
