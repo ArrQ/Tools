@@ -1,9 +1,9 @@
 //
 //  SDHelper.m
-//  SDTagsView
+//  TVXiaoZhen
 //
-//  Created by slowdony on 2017/7/19.
-//  Copyright © 2017年 slowdony. All rights reserved.
+//  Created by ArrQ on 2017/7/29.
+//  Copyright © 2017年 ArrQ. All rights reserved.
 //
 
 #import "SDHelper.h"
