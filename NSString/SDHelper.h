@@ -21,7 +21,7 @@
 
 
 
-+ (CGFloat)widthForLabelHeight:(NSString *)text fontSize:(CGFloat)font;
++ (CGFloat)widthForLabelHeight:(NSString *)text width:(CGFloat)width fontSize:(CGFloat)font;
 
 /**
  16进制转换 颜色

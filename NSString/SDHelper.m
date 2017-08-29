@@ -22,7 +22,7 @@
 
 // 计算文字高度
 
-+ (CGFloat)widthForLabelHeight:(NSString *)text fontSize:(CGFloat)font{
++ (CGFloat)widthForLabelHeight:(NSString *)text width:(CGFloat)width fontSize:(CGFloat)font{
 
 
  CGRect rect = [text boundingRectWithSize:CGSizeMake(width, 1000) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:font]} context:nil];
