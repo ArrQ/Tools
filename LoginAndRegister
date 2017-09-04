@@ -1,4 +1,5 @@
 # 登陆注册 匹配
+
 ```
 
 # pragma mark --- 匹配登陆条件 ----
@@ -37,9 +38,5 @@
     return [predicate evaluateWithObject:textString];
 
 }
-
-
-
-
 
 ```
